@@ -4,6 +4,12 @@ import "fmt"
 
 func main() {
 
+	readyTxt := 3
+	for readyTxt > 0 { // No while keyword
+		fmt.Println("Loading...")
+		readyTxt--
+	}
+
 	//	fmt.Println("... Ready for Test Run? ....")
 	var num int
 	//	var state int
