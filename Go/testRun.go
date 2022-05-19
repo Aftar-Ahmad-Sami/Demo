@@ -16,16 +16,20 @@ func main() {
 	// fmt.Scanln(&n)
 
 	n := 5
+	arr := [5]int{1, 2, 3, 4, 5}
 	fmt.Print("\nEnter the elements of array:\t")
 	var ary [5]int
 	for i := 0; i < n; i++ {
 		fmt.Scanf("%d", &ary[i])
 	}
-	fmt.Print("\nThe Elements are:\t")
+	fmt.Print("\nThe Input Elements are:\t")
 	for i := 0; i < n; i++ {
 		fmt.Print(ary[i], " ")
 	}
-
+	fmt.Print("\nThe Predetermined Elements are:\t")
+	for _, value := range arr {
+		fmt.Print(value, " ")
+	}
 }
 
 //--------------Loops and Conditional Statements---------------------//
