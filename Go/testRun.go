@@ -10,12 +10,38 @@ func main() {
 		fmt.Println("Loading...")
 		readyTxt--
 	}
-
-	// var n int
-	// fmt.Print("Enter the size of array:\t")
-	// fmt.Scanln(&n)
+	fmt.Println()
 
 }
+
+//-----------------------Slice-------------------------------//
+// var n int
+// fmt.Print("Enter the size of array:\t")
+// fmt.Scanln(&n)
+
+// fmt.Print("\nSlicing Array + Appending Array\n\n")
+// //ary := make([]int, n)
+// ary := make([]int, n, 10)
+// ary = append(ary, 1, 2, 3)
+// n += 3
+// sliceAry := ary[:]
+// //sliceAry:=ary[0:]
+// //sliceAry:=ary[:n]
+
+// for i := 0; i < n; i++ {
+// 	fmt.Print(ary[i], " ")
+// 	fmt.Println(sliceAry[i])
+// }
+
+// fmt.Println()
+// fmt.Print("\nCopying Array\n\n")
+// copyAry := make([]int, 4)
+// copy(copyAry, ary)
+
+// for _, val := range copyAry {
+// 	fmt.Print(val, " ")
+// }
+// fmt.Println()
 
 //----------------------------Arrays---------------------------------//
 // 	n := 5
