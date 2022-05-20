@@ -12,6 +12,13 @@ func main() {
 	}
 	fmt.Println()
 
+	elementSymbol := [3]string{"H", "He", "Li"}
+	element := make(map[string]int)
+	for i := 1; i <= 3; i++ {
+		element[elementSymbol[i-1]] = i
+	}
+	fmt.Print(element)
+
 }
 
 //-----------------------Slice-------------------------------//
