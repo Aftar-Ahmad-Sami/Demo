@@ -12,14 +12,19 @@ func main() {
 	}
 	fmt.Println()
 
-	elementSymbol := [3]string{"H", "He", "Li"}
-	element := make(map[string]int)
-	for i := 1; i <= 3; i++ {
-		element[elementSymbol[i-1]] = i
-	}
-	fmt.Print(element)
-
 }
+
+//----------------------Maps-----------------------------------//
+// elementSymbol := [3]string{"H", "He", "Li"}
+// element := make(map[string]int)
+// for i := 1; i <= 3; i++ {
+// 	element[elementSymbol[i-1]] = i
+// }
+
+// fmt.Println(element)
+
+// number, state := element["Heoo"]
+// fmt.Println(number, state)
 
 //-----------------------Slice-------------------------------//
 // var n int
