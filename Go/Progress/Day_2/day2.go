@@ -9,6 +9,7 @@ func main() {
 }
 
 //----------------------Maps-----------------------------------//
+
 // elementSymbol := [3]string{"H", "He", "Li"}
 // element := make(map[string]int)
 // for i := 1; i <= 3; i++ {
@@ -17,9 +18,12 @@ func main() {
 
 // fmt.Println(element)
 
-// number, state := element["Heoo"]
-// fmt.Println(number, state)
+// // number, state := element["Heoo"]
+// // fmt.Println(number, state)
 
+// if number, state := element["O"]; state {
+// 	fmt.Println(number, state)
+// }
 //-----------------------Slice-------------------------------//
 // var n int
 // fmt.Print("Enter the size of array:\t")
