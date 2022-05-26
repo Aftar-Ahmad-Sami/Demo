@@ -1,0 +1,5 @@
+Topics:
+        1. Functions
+        2. Closure Functions
+        3. Defer, Panic & Recover
+        4. Recursion
