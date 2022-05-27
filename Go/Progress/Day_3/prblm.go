@@ -10,7 +10,7 @@ func problem() {
 		fmt.Scanln(&number)
 
 		result, state := half(number)
-		if state == true {
+		if state {
 			fmt.Println("The number is even and it's half is ", result)
 		} else {
 			fmt.Println("The number is odd and it's half is ", result)
